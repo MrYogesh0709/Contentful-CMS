@@ -5,11 +5,10 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-center">
         <div className="hero-title">
-          <h1>Contentful CMS</h1>
+          <h1>MERN Projects</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quia
-            quibusdam esse sit illo inventore perspiciatis obcaecati nam
-            voluptates aliquid. Accusamus, dignissimos sunt.
+            Projects used with front-end with react and back-end node as
+            database i used monogodb.
           </p>
         </div>
         <div className="img-container">
