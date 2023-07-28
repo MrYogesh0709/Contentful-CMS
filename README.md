@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Yogesh's Projects
 
 ## THIS ARE MY MERN PROJECTS : I USED CONTEFUL CMS
