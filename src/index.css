@@ -345,7 +345,7 @@ PROJECTS
   transition: var(--transition);
 }
 .project:hover {
-  transform: scale(1.05);
+  transform: rotate(-3deg);
   box-shadow: var(--shadow-4);
 }
 
@@ -353,6 +353,14 @@ PROJECTS
   height: 15rem;
   border-top-right-radius: var(--borderRadius);
   border-top-left-radius: var(--borderRadius);
+  opacity: 1;
+}
+
+.project:hover .img {
+  height: 15rem;
+  border-top-right-radius: var(--borderRadius);
+  border-top-left-radius: var(--borderRadius);
+  opacity: 0.3;
 }
 
 .project h5 {
@@ -370,4 +378,43 @@ PROJECTS
   .projects-center {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+/* Add this CSS to your existing styles */
+.project {
+  position: relative;
+  display: inline-block; /* Ensure the anchor element takes the width of its content */
+}
+
+.url-display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the URL display */
+  padding: 10px;
+  display: none;
+}
+
+.project:hover .url-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: #4996e8; /* Customize the background color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: black; /* Customize the background color on hover */
+  color: white;
 }

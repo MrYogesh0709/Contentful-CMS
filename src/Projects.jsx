@@ -14,18 +14,30 @@ const Projects = () => {
           </div>
           <div className="projects-center">
             {projects.map((project) => {
-              const { id, img, url, title } = project;
+              const { id, img, url, title, sourceCode } = project;
               return (
-                <a
-                  key={id}
-                  href={url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project"
-                >
+                <div className="project" key={id}>
                   <img src={img} alt={title} className="img" />
                   <h5>{title}</h5>
-                </a>
+                  <div className="url-display">
+                    <a
+                      className="button"
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Visit Site
+                    </a>
+                    <a
+                      className="button"
+                      href={sourceCode}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Show Code
+                    </a>
+                  </div>
+                </div>
               );
             })}
           </div>
