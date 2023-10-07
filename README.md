@@ -3,7 +3,7 @@
 
 ## THIS ARE MY MERN PROJECTS : I USED CONTEFUL CMS
 
-https://app.contentful.com
+https://mryogesh-mern.netlify.app
 
 ### INSTALL DEPENDENCIES
 
@@ -24,5 +24,3 @@ npm run dev
 
 ### HOSTED ON NETLIFY:-
 =======
-
->>>>>>> 3813d509f80f2292ed7d5153d55d20fd4af53ea6

@@ -6,8 +6,9 @@ const Hero = () => {
       <div className="hero-center">
         <div className="hero-title">
           <h1>MERN Projects</h1>
-          <p>
-            Projects used with front-end with react and back-end node as
+          <h2>Hey I'm Yogesh Vanzara</h2>
+          <p style={{ padding: "2rem" }}>
+            My Projects are used with front-end with react and back-end node as
             database i used monogodb.
           </p>
         </div>
